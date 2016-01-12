@@ -9,9 +9,7 @@ func nutsLog(@autoclosure message: () -> String) {
         if random() % 50 == 0 {
             print("peanuts trace")
         }
-        else {
-            print(message())
-        }
+        print(message())
     }
 }
 ```
